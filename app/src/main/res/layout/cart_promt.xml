@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL CREDITS IN CART"
+            android:id="@+id/textView"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 points"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp"
+            android:id="@+id/credits"
+            android:layout_below="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp" />
+
+
+</LinearLayout>

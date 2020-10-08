@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2e3237">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#2e3237">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placing The Bet"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="21sp"
+            android:id="@+id/cood"
+            android:textColor="@android:color/white"
+
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#3b4148"
+            android:paddingBottom="1dp"
+            android:layout_below="@+id/cood"
+            android:id="@+id/first"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:elevation="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+            <TextView
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:text="@string/rules_bet"
+                android:ellipsize="marquee"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal|right"
+                android:fontFamily="Helvetica Neue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Calculation"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="21sp"
+            android:id="@+id/inst2"
+            android:layout_below="@+id/first"
+            android:textColor="@android:color/white"
+
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#3b4148"
+            android:paddingBottom="1dp"
+            android:layout_below="@+id/inst2"
+            android:id="@+id/second"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:elevation="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/rules_score"
+                    android:ellipsize="marquee"
+                    android:textColor="@android:color/white"
+                    android:paddingRight="30dp"
+                    android:fontFamily="Helvetica Neue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView><!-- From: file:/E:/AndroidLoginAndRegistration11/app/src/main/res/layout/instructions.xml -->

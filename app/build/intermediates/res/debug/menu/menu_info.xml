@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.bosmroulette.activity.InfoActivity">
+
+</menu>
+<!-- From: file:/E:/AndroidLoginAndRegistration11/app/src/main/res/menu/menu_info.xml -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="info_activities">
+        <item>Sport</item>
+        <item>Participants</item>
+        <item>Time</item>
+        <item>Venue</item>
+        <item>Score</item>
+        <item>Previous Bet</item>
+    </string-array>
+
+
+</resources>

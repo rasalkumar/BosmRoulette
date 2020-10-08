@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2e3237">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2e3237">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COORDINATORS"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="17sp"
+        android:id="@+id/cood"
+        android:textColor="@android:color/white"
+
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        android:layout_below="@+id/cood"
+        android:id="@+id/first"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="SAI TEJA"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SECRETARY CODING CLUB"
+                        android:layout_marginBottom="-2dp"
+                        android:layout_marginTop="-1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9929297977"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3b4148"
+        android:id="@+id/second"
+        android:layout_below="@+id/first"
+        android:paddingBottom="1dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="ROHIT GOYAL"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="COORDINATOR HPC"
+                        android:layout_marginBottom="-2dp"
+                        android:layout_marginTop="-1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8503861580"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/third"
+        android:layout_below="@+id/second"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="17sp"
+        android:id="@+id/developers"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/third"
+        android:layout_centerHorizontal="true" />
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+               &lt;!&ndash; <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    &lt;!&ndash;  <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textSize="21sp"
+                         android:layout_marginTop="8dp"
+                         android:text="PARTHO MUKHERJEE"
+                         android:singleLine="true"
+                         android:ellipsize="marquee"
+                         android:textColor="@android:color/white"
+                         android:paddingRight="30dp"
+                         android:fontFamily="Helvetica Neue"/>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="BOSM CORD. CODING CLUB"
+                         android:layout_marginBottom="-2dp"
+                         android:layout_marginTop="-1dp"
+                         android:textSize="16sp"
+                         android:textColor="@android:color/white"
+                         android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="9982054081"
+                         android:layout_marginTop="1dp"
+                         android:textSize="16sp"
+                         android:textColor="@android:color/white"
+                         android:fontFamily="Helvetica Neue"/>&ndash;&gt;
+
+                </LinearLayout>&ndash;&gt;
+            </LinearLayout>
+        </LinearLayout>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/fourth"
+        android:layout_below="@+id/developers"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="SHIVAM GUPTA"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7737436200"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/fifth"
+        android:layout_below="@+id/fourth"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="RASAL KUMAR"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8426879993"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/sixth"
+        android:layout_below="@+id/fifth"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="HARISH REDDY"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7690845677"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/seven"
+        android:layout_below="@+id/sixth"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="1dp"
+        android:elevation="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        >
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_weight="9"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21sp"
+                    android:layout_marginTop="8dp"
+                    android:text="ABHINAV GUPTA"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:textColor="@android:color/white"
+                    android:paddingRight="30dp"
+                    android:fontFamily="Helvetica Neue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9928026168"
+                    android:layout_marginTop="1dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="Helvetica Neue"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/eight"
+        android:layout_below="@+id/seven"
+        android:background="#3b4148"
+        android:paddingBottom="1dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:elevation="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="9"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="21sp"
+                        android:layout_marginTop="8dp"
+                        android:text="ABHINAV GUPTA"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textColor="@android:color/white"
+                        android:paddingRight="30dp"
+                        android:fontFamily="Helvetica Neue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7742242774"
+                        android:layout_marginTop="1dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="Helvetica Neue"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

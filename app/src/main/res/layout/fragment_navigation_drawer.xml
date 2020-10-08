@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/headimage"
+            android:layout_height="170dp"
+            android:src="@drawable/landing_logo_col2"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contextClickable="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coding Club"
+            android:textColor="@color/textColorPrimary"
+            android:gravity="center"
+            android:layout_below="@id/headimage"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:id="@+id/baseimage"
+            android:layout_height="100dp"
+            android:src="@drawable/coding_club1"
+            android:layout_gravity="left"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:id="@+id/hpcimage"
+            android:layout_height="100dp"
+            android:src="@drawable/hpc"
+            android:paddingRight="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

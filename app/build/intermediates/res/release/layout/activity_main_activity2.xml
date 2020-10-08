@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E2E4E6">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BOSM ROULETTE"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"/>
+    <ImageView
+        android:id="@+id/landing_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        components:src="@drawable/landing" />
+
+
+</RelativeLayout><!-- From: file:/E:/AndroidLoginAndRegistration11/app/src/main/res/layout/activity_main_activity2.xml -->

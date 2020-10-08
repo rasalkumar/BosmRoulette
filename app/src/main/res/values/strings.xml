@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BOSM ROULETTE</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">HOME</string>
+    <string name="nav_item_InviteFriends">INVITE FRIENDS</string>
+    <string name="nav_item_ScoreBoard">SCORE BOARD</string>
+    <string name="nav_item_ContactUs">CONTACT US</string>
+    <string name="nav_item_Logout">LOGOUT</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Server: successfully added device!</string>
+    <string name="server_unregistered">From Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_InviteFriends</item>
+        <item>@string/nav_item_ScoreBoard</item>
+        <item>@string/nav_item_instructions</item>
+        <item>@string/nav_item_ContactUs</item>
+        <item>@string/nav_item_Logout</item>
+    </string-array>
+
+    <string name="title_home">HOME</string>
+    <string name="title_InviteFriends">INVITE FRIENDS</string>
+    <string name="title_ScoreBoard">SCORE BOARD</string>
+    <string name="title_Instructions">INSTRUCTIONS</string>
+    <string name="title_ContactUs">CONTACT US</string>
+    <string name="title_Logout">LOGOUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_drawer">FragmentDrawer</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_instruction">Instructions</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_invite">InviteFriends</string>
+    <string name="rules_bet">1. To place the bet, choose the event and click on the star on the screen.\n
+                                2. Choose a team and credits you want to bet for.\n
+                                3. You can bet for maximum of 30% of your total present credits.</string>
+    <string name="rules_score">1. You can see your total credits in the cart.\n
+    2. On win, you get the extra credits equal to your bet.\n
+    3. On lose, you lose the half of the credits you bet for.\n
+    4. Refresh the app from top right corner button to update your score.\n
+    5. You can check your rank in the Scoreboard.</string>
+    <string name="nav_item_instructions">INSTRUCTIONS</string>
+</resources>

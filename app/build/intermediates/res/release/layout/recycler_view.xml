@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:paddingBottom="1dp"
+        >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_marginBottom="1dp"
+    android:elevation="3dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    >
+
+    <TextView
+        android:id="@+id/circletv"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:text="F"
+        android:textColor="#fff"
+        android:textSize="29sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bg_red"
+        android:gravity="center_vertical|center_horizontal"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="17dp"
+        android:layout_weight="9"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginTop="8dp"
+            android:text="Match Name"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:id="@+id/match_name"
+            android:textColor="#616161"
+            android:paddingRight="30dp"
+            android:fontFamily="Helvetica Neue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TeamA vs TeamB"
+            android:layout_marginBottom="-2dp"
+            android:layout_marginTop="-3dp"
+            android:textSize="15sp"
+            android:id="@+id/teams"
+            android:fontFamily="Helvetica Neue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12th Sep 2015, 10:30 am"
+            android:layout_marginTop="0dp"
+            android:textSize="15sp"
+            android:id="@+id/date"
+            android:fontFamily="Helvetica Neue"/>
+
+    </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_gravity="end"
+           android:layout_weight="1">
+       <ImageView
+
+           android:id="@+id/star"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:gravity="center_vertical|end"
+
+           android:src="@drawable/star_new"
+           />
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.12"
+        android:background="@android:color/black" />
+
+</RelativeLayout><!-- From: file:/E:/AndroidLoginAndRegistration11/app/src/main/res/layout/recycler_view.xml -->
