@@ -9,6 +9,8 @@ Bosm Roulette is an android app used to place a bet on teams which are participa
 3. Google login was given as an API.   
 4. The app is now present as a part of Bosm App and is available on playstore. 
 
+** The apk is present inside the app folder. **
+
 ## Developers
 Rasal Kumar, Shivam Gupta and Sai Teja K.
 
